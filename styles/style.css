@@ -10,7 +10,7 @@ body {
   display:flex;
   justify-content:center;
   align-items:center;
-  color:#10214e;
+  color:#00ffbf;
 }
 
 article {
@@ -56,7 +56,8 @@ button {
 }
 button:focus {
   outline:none;
-  background:#202592;
+  background : #00ffbf ;
+  
 }
 button:focus svg {
   stroke: rgba(0,239,255,1);
