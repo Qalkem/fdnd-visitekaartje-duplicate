@@ -1,5 +1,7 @@
 * {
   box-sizing:border-box;
+  width: 40px;
+
 }
 html {
   height:100vh;
@@ -10,18 +12,24 @@ body {
   display:flex;
   justify-content:center;
   align-items:center;
-  color:#00ffbf;
+  color:yellowgreen ;
+
 }
+P::first-letter  {
+  color: RED;
+}
+
+body: 
 
 article {
   width:50vw;
-  max-width: 25em;
-  min-width:20em;
+  max-width: 15em;
+  min-width: 10em;
   display:flex;
   flex-direction:column;
   align-items:center;
   justify-content:flex-end;
-  background: rgb(0,239,255);
+  background: rgb(246, 255, 116);
   background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
   box-shadow:0 0 20px 20px rgba(0,0,0,.1);
   border-radius:1rem;
@@ -57,7 +65,7 @@ button {
 button:focus {
   outline:none;
   background : #00ffbf ;
-  
+
 }
 button:focus svg {
   stroke: rgba(0,239,255,1);
@@ -80,8 +88,8 @@ h2 {
 img {
   width:10em;
   border-radius:10em;
-  border:5px solid #fff;
-  box-shadow:0 0 2px 2px rgba(0,0,0,.2);
+  border:5px solid rgb(143, 255, 218);
+  box-shadow:0 0 2px 2px rgba(197, 232, 255, 0.822);
   position:relative;
   top:2rem;
   transition:.25s .15s;
